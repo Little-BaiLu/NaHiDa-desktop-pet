@@ -1,0 +1,24 @@
+{
+  "name": "Nahida",
+  "sprite_dir": "assets/namecard_placeholder",
+  "body": "body.png",
+  "eyes": ["eye_l.png", "eye_r.png"],
+  "eye_layout": [
+    { "x": 105, "y": 151, "w": 34, "h": 34 },
+    { "x": 181, "y": 151, "w": 34, "h": 34 }
+  ],
+  "anchor": [0.5, 0.1],
+  "scale": 1.0,
+  "fps": 30,
+  "max_pupil_offset": 5.0,
+  "gaze_gain": 1.25,
+  "head_tilt_max_deg": 6.0,
+  "blink": { "min_interval": 2.4, "max_interval": 6.0, "duration": 0.16 },
+  "behavior": { "min_interval": 1.6, "max_interval": 4.5 },
+  "look_around": { "max_offset": 8.0, "duration": 0.9 },
+  "hop": { "height": 34.0, "duration": 0.55 },
+  "gravity": 2600.0,
+  "bounce": 0.42,
+  "always_on_top": true,
+  "start_position": null
+}
